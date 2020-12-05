@@ -57,7 +57,7 @@ public class MainHandler {
                 //Обработка кнопок
                 switch (inputMsg) {
                     case "/start":
-                        replyMessage.setText("Приветствую! Чтобы получить инфромацию о текущих курсах валют: нажмите на кнопку ниже");
+                        replyMessage.setText("Приветствую! Чтобы получить инфромацию о текущих курсах валют: нажмите на одну из кнопок ниже");
                         replyMessage.setReplyMarkup(replyKeyboardMarkup);
                         break;
                     case "Курс Доллара \uD83C\uDDFA\uD83C\uDDF8":

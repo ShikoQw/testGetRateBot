@@ -31,8 +31,8 @@ public class Rate {
                     }
                 }
             }
-            String finalToUserString = rateArray.get(2) + "\nдля покупки наличными составляет: "+rateArray.get(0)+" для продажи: "+rateArray.get(1) +
-                    "\nбезналичными для покупки составляет "+rateArray.get(3)+" для продажи: "+rateArray.get(4) ;
+            String finalToUserString = rateArray.get(2) + "\n\nдля покупки наличными составляет: "+rateArray.get(0)+" для продажи: "+rateArray.get(1) +
+                    "\nдля покупки безналичными составляет "+rateArray.get(3)+" для продажи: "+rateArray.get(4) ;
             return finalToUserString;
         } catch (IOException e){
             e.printStackTrace();
