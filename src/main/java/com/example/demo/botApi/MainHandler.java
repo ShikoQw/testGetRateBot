@@ -61,18 +61,18 @@ public class MainHandler {
                         replyMessage.setReplyMarkup(replyKeyboardMarkup);
                         break;
                     case "Курс Доллара \uD83C\uDDFA\uD83C\uDDF8":
-                        botState = "Доллар";
-                        replyMessage.setText("курс доллара к тенге в народном банке на " + rate.getRateToUser(botState));
+                        botState = "США";
+                        replyMessage.setText("Курс доллара к тенге в народном банке на " + rate.getRateToUser(botState));
                         replyMessage.setReplyMarkup(replyKeyboardMarkup);
                         break;
                     case "Курс Евро \uD83C\uDDEA\uD83C\uDDFA":
                         botState = "Евро";
-                        replyMessage.setText("курс евро к тенге в народном банке на " + rate.getRateToUser(botState));
+                        replyMessage.setText("Курс евро к тенге в народном банке на " + rate.getRateToUser(botState));
                         replyMessage.setReplyMarkup(replyKeyboardMarkup);
                         break;
                     case "Курс Рубля \uD83C\uDDF7\uD83C\uDDFA":
                         botState = "рубль";
-                        replyMessage.setText("курс российского рубля к тенге в народном банке на " + rate.getRateToUser(botState));
+                        replyMessage.setText("Курс российского рубля к тенге в народном банке на " + rate.getRateToUser(botState));
                         replyMessage.setReplyMarkup(replyKeyboardMarkup);
                         break;
                     default:
